@@ -1,16 +1,26 @@
-Homework 01 - Code Refactor
+Code Refactor
 
-Motivation: A poorly written code given to the student for reviewing wrong and not optimal parts of the code. From aesthetics to actual mistakes, the student was supposed to take a look, use all the knowledge obtained so far in the course and do It`s best to correct it.
+Motivation: A poorly written code given to the student for reviewing wrong and not optimal parts of the code. From aesthetics to actual mistakes, the student was supposed to take a look, use all the knowledge obtained so far in the course and do it's best to correct it.
 
-It was a good way to put the student in the place of the poor teacher that needs to deal with that kind of ugly codes, but mainly, a good way to understand the importance that an organized and clean code have, because It gets much easier to understand possible mistakes and to correct them.
 
-A few features:
+Features:
 
-Website title changed to Horiseon.
-Changed main color to purple.
-Added a Frank Zappa picture.
-Resized original image.
-Corrected a few images that didn't have "alt" and functions that weren't working properly. 
-General cleaning and improving aesthetics of the code that was poorly writen.
-Redundant parts of the code were grouped, some "divs" were turned into "header" and "footer".
-Added "class" to missing images.
+On `index.html`:
+
+* Changed `<div class="header">` tag to `<header>` 
+* Given the `alt` attribute to all images (lines 30, 36, 43, 54, 61, 68)
+* Removed unused `id` tags (lines 36, 43)
+* Changed `div` tags from lines 29, 35, 36, 42, 43 and 49 to `section` tags
+* Changed `div` tags from 51 and 73 to `aside` tags
+* Changed `<div class="footer">` tag to `<footer>` 
+
+
+On `style.css`:
+
+* Changed `.header` and `.footer` to `header` and `footer`
+* Grouped various classes with the same style configuration into the same block of code
+    - `.benefit-lead`, `.benefit-brand`, `.benefit-cost`
+    - `.benefit-lead img`, `.benefit-brand img`, `.benefit-cost img`
+    - `.search-engine-optimization`, `.online-reputation-management`, `.social-media-marketing`
+    - `.search-engine-optimization img`, `.online-reputation-management img`, `.social-media-marketing img`
+* Added ' to several font-families which were missing int
