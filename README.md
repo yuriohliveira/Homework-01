@@ -23,4 +23,4 @@ On `style.css`:
     - `.benefit-lead img`, `.benefit-brand img`, `.benefit-cost img`
     - `.search-engine-optimization`, `.online-reputation-management`, `.social-media-marketing`
     - `.search-engine-optimization img`, `.online-reputation-management img`, `.social-media-marketing img`
-* Added ' to several font-families which were missing int
+* Added ' to several font-families which were missing it
